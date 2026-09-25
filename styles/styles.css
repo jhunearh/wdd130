@@ -33,7 +33,7 @@ main {
 aside {
     width: 4rem;
     margin: 1rem;
-    border: 1px solid rbg(0 0 0 / 0.2);
+    border: 1px solid beige;
     padding: 1rem;
     background-color: gray;
     color: #333;
