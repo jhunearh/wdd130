@@ -16,6 +16,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 header,
@@ -66,7 +67,7 @@ h1 {
     color: white;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 50px;
     left: 20px;
@@ -91,6 +92,7 @@ article {
 section p {
     margin: 0 auto;
     padding: 10px;
+    background-color: var(--secondary-color);
 }
 
 .socialmedia img {
