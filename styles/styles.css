@@ -45,23 +45,21 @@ p {
 }
 
 main {
-    width: 840px;
+    max-width: 840px;
     margin: 0 auto;
     grid-column: 3/4;
 }
 
 aside {
-    width: 50%;
-    margin: 15px;
+    max-width: 400px;
+    margin: auto 10px auto;
     border: 1px;
-    padding: 1rem;
+    padding: 15px;
     background-color: gray;
     color: #333;
     text-align: center;
     position: relative;
-    right: 15px;
-    /* bottom: 15px;
-    top: 800px; */
+    right: 10px;
     grid-column: 1/2;
     grid-row: 1/2;
 }
