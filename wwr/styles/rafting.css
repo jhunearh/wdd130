@@ -96,12 +96,80 @@ section p {
 }
 
 .socialmedia img {
-    display: inline-block;
-    width: 30px;
+    width: 45px;
     height: auto;
+    align-items: flex-end;
+    margin: 0 auto;
 }
 
 section {
     margin: 0 auto;
     padding: 5px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20% 80%;
+}
+
+.grid img {
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 30px;
+    grid-column: 2 / 3;
+}
+
+.grid h2 {
+    grid-column: span 3;
+    align-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.flex {
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.figure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 15px;
+}
+
+.figure img {
+    width: 150px;
+    height: auto;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+figcaption {
+    text-align: center;
 }
