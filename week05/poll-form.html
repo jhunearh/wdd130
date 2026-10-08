@@ -14,27 +14,42 @@
     </header>
     <main>
         <form>
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname" required>
-            <label for="useremail">Email:</label>
-            <input type="email" id="useremail" name="useremail" required>
+
+            <div class="contact">
+                <!-- <legend>Contact Information</legend> -->
+
+                <label for="fullname">Full Name: <input type="text" id="fullname" name="fullname"
+                      required></label>
+
+                <label for="useremail">Email: <input type="email" id="useremail" name="useremail"
+                      required></label>
+
+            </div>
 
 
-            <label for="browser">What is your favorite browser?</label>
-            <select name="browser" id="browser">
-                <option value="0" selected disabled>Choose one...</option>
-                <option value="1">Chrome</option>
-                <option value="2">Firefox</option>
-                <option value="3">Explorer</option>
-                <option value="4">Other</option>
-            </select>
+            <div class="question">
+                <!-- <legend>Questions</legend> -->
 
-            <label for="pet">Do you have a household pet?</label>
-            <input type="checkbox" id="pet" name="pet">
 
-            <label for="feedback">List the places you have lived.</label>
-            <textarea id="feedback" name="feedback" rows="4"
-              placeholder="Koforidua Eastern, Accra Greater Accra, Kumasi Ashanti,"></textarea>
+                <label for="browser">What is your favorite browser? <select name="browser"
+                      id="browser">
+                        <option value="0" selected disabled>Choose one...</option>
+                        <option value="1">Chrome</option>
+                        <option value="2">Firefox</option>
+                        <option value="3">Explorer</option>
+                        <option value="4">Other</option>
+                    </select></label>
+
+
+                <label for="pet">Do you have a household pet? <input type="checkbox" id="pet"
+                      name="pet"></label>
+
+
+                <label for="feedback">List the places you have lived.</label>
+                <textarea id="feedback" name="feedback" rows="4"
+                  placeholder="Koforidua Eastern, Accra Greater Accra, Kumasi Ashanti,"></textarea>
+
+            </div>
 
             <button type="submit">Submit Poll</button>
         </form>

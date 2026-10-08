@@ -1,0 +1,169 @@
+:root {
+    --primary-color: white;
+    --secondary-color: #f4a261;
+    --accent1-color: darkblue;
+    --accent2-color: #e9c46a;
+    --heading-font: Georgia, 'Times New Roman', Times, serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: black;
+    background-color: var(--accent2-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+} */
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    background-color: var(--accent1-color);
+}
+
+/* nav,
+p,
+section {
+    margin: 16px;
+    padding: 8px;
+} */
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+h1 {
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.socialmedia img {
+    width: 45px;
+    height: auto;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+
+section {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.flex {
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* New individual changes*/
+.contact {
+    text-align: center;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20% 80%;
+    text-align: center;
+    width: 840px;
+    margin-bottom: 20px;
+}
+
+.employees figure img {
+    max-width: 200px;
+    height: 150px;
+    grid-row: 2 / 3;
+}
+
+.employees h2 {
+    grid-column: span 3;
+    grid-row: 1 / 2;
+    padding: 10px;
+}
+
+.employees figure figcaption {
+    text-align: center;
+}
+
+/* .map,
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input,
+textarea {
+    padding: 5px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: navy;
+}
