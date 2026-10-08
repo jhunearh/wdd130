@@ -133,12 +133,6 @@ footer {
     text-align: center;
 }
 
-/* .map,
-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
-
 .contact-layout {
     display: grid;
     grid-template-columns: 50% 50%;

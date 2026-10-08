@@ -57,8 +57,6 @@ article {
 }
 
 h1 {
-    position: absolute;
-    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -172,4 +170,59 @@ footer {
 
 figcaption {
     text-align: center;
+}
+
+/* New individual changes*/
+.contact {
+    text-align: center;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20% 80%;
+    text-align: center;
+    width: 840px;
+    margin-bottom: 20px;
+}
+
+.employees figure img {
+    max-width: 200px;
+    height: 150px;
+    grid-row: 2 / 3;
+}
+
+.employees h2 {
+    grid-column: span 3;
+    grid-row: 1 / 2;
+    padding: 10px;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input,
+textarea {
+    padding: 5px;
+}
+
+button {
+    background-color: var(--accent1-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: navy;
 }
